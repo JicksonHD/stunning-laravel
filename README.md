@@ -57,3 +57,14 @@ It did not work. The command you provided appears to have two dashes (--) before
 -cd sites-enabled <br>
 -sudo vim 000-default.conf <br>
 -sudo systemctl restart apache2 <br>
+
+### Checkpoint 6:
+-cd /var/www/html/stunning-laravel <br>
+-sudo chgrp -R www-data storage bootstrap/cache <br>
+What does it mean? <br>
+The command "sudo chgrp -R www-data storage bootstrap/cache" changes the group ownership of the "storage" and "bootstrap/cache" directories and all their contents to "www-data"
+<br>
+-sudo chmod -R ug+rwx storage bootstrap/cache <br>
+What does it mean? <br>
+The command "sudo chmod -R ug+rwx storage bootstrap/cache" changes the permissions of the "storage" and "bootstrap/cache" directories and all their contents, granting read, write, and execute permissions to the owner and group. 
+<br>
