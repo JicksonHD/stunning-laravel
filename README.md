@@ -48,3 +48,12 @@ It did not work. The command you provided appears to have two dashes (--) before
 -sudo vim .env (allowing us to edit the file)<br>
 -escape shift + : x (to finish editing the file)<br>
 -sudo php artisan key:generate
+
+### Checkpoint 5:
+-which apache2 <br> We use which to check if the package is installed
+-cd /apache2 <br>
+-ls <br>
+-sudo vim apache2.conf <br>
+-cd sites-enabled <br>
+-sudo vim 000-default.conf <br>
+-sudo systemctl restart apache2 <br>
