@@ -8,7 +8,7 @@ apt-get allows you to manage software packages. It works with ubuntu's APT libra
 
 ip adress: 172.31.37.51
 
-Checkpoint 1:
+-Checkpoint 1:
 
 sudo apt-get install apache2
 sudo apt-get install mysql-server
@@ -27,3 +27,10 @@ sudo systemctl restart apache2
 So we are able to restart
 
 
+
+-Checkpoint 2:
+cd /var/www/html
+pwd
+sudo git clone https://github.com/NinjaCoder8/stunning-laravel.git
+
+-Checkpoint 3:
