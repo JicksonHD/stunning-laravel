@@ -8,7 +8,7 @@ apt-get allows you to manage software packages. It works with ubuntu's APT libra
 
 ip adress: 172.31.37.51
 
--Checkpoint 1:
+### Checkpoint 1:
 
 sudo apt-get install apache2
 sudo apt-get install mysql-server
@@ -28,18 +28,18 @@ So we are able to restart
 
 
 
--Checkpoint 2:
+### Checkpoint 2:
 cd /var/www/html
 pwd
 sudo git clone https://github.com/NinjaCoder8/stunning-laravel.git
 
--Checkpoint 3:
+### Checkpoint 3:
 1-)curl -sS https://getcomposer.org/installer | sudo php — — install-dir=/usr/local/bin — filename=composer
 It did not work. The command you provided appears to have two dashes (--) before the "install-dir" and "filename" options, but they should have only one dash (-) before them. Here is the corrected command:
 2-)curl -sS https://getcomposer.org/installer | sudo php --install-dir=/usr/local/bin --filename=composer
 3-) sudo install composer
 
--Checkpoint 4:
+### Checkpoint 4:
 -pwd
 -cd stunning-laravel
 (to go to the right dir)
