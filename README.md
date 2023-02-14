@@ -40,3 +40,10 @@ It did not work. The command you provided appears to have two dashes (--) before
 3-) sudo install composer
 
 -Checkpoint 4:
+-pwd
+-cd stunning-laravel
+(to go to the right dir)
+-sudo cp .env.example .emv
+-sudo vim .env (allowing us to edit the file)
+-escape shift + : x (to finish editing the file)
+-sudo php artisan key:generate
